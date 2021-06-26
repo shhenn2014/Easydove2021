@@ -1,0 +1,152 @@
+* {
+  position: relative;
+  //border: solid 2px;
+  font-family: 標楷體;
+}
+
+
+html,
+body {
+  text-align: center;
+  color: #d3d3d3;
+  background: Black;
+}
+
+
+.containfirst {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 90px;
+  width: 100%;
+  background-color: #b3b3b3;
+  z-index: 5;
+}
+
+.first {
+  left: 90px;
+  top: 25px;
+  position: fixed;
+  text-align: left;
+  font-size: 28px;
+  color: black;
+  z-index: 6;
+  font-weight:900;
+}
+.icon
+{
+  border-radius:50%;
+  font-size:14px;
+  text-align:center;
+}
+.word
+{
+  top:10px;
+}
+
+.smiletitle {
+  position: fixed;
+  top: 20px;
+  left: 90%;
+  width: 40px;
+  height: 40px;
+  background-color: #d4d4d4;
+  z-index: 7;
+}
+
+
+.name {
+  position: relative;
+  text-align: left;
+}
+
+.icon {
+  left: 5px;
+  top: 5px;
+  height: 75px;
+  width: 75px;
+  background-color: red;
+}
+
+img {
+  width: 300px;
+}
+
+.coretitle {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+table {
+  left: 5%;
+  width: 90%;
+  text-align: center;
+  border-collapse: collapse;
+}
+caption {
+  font-weight: 700;
+  font-size: 24px;
+}
+th {
+  text-align: center;
+  border: solid 1px white;
+  box-sizing: border-box;
+}
+.tablefirst {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.t1
+{
+ width:20% 
+}
+.t2
+{
+ width:40% 
+}
+.t3
+{
+ width:10% 
+}
+.t4
+{
+ width:10% 
+}
+.t5
+{
+ width:10% 
+}
+
+.line {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.suck
+{
+  font-family:'標楷體';
+  font-size:20px;
+}
+
+.btn123
+{
+  border:0px solid #fff;
+  font-size:16px;
+  color:white;
+  background-color: rgba(100,255,204,0);
+}
+.count
+{
+  width:35%;
+  border:0px solid #fff;
+  font-size:16px;
+  color:white;
+  background-color: rgba(100,255,204,0);
+}
+
+.img
+{
+  width:35%;
+  height:80%;
+}
