@@ -49,7 +49,7 @@ window.onclick = function(event) {
 function keyFunction() 
 {
   if ((event.keyCode ==77) && (event.ctrlKey))
-   {     window.open("https://shhenn2014.github.io/Easydove2021/Magic");
+   {     window.open("https://shhenn2014.github.io/Easydove2021/Magic"); 
    }
 }
 document.onkeydown=keyFunction;
