@@ -1,0 +1,442 @@
+*
+{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.title
+{
+  font-family:'標楷體',sans-serif;
+  font-size:32px;
+  font-weight:800;
+}
+.cate
+{
+  font-family:'Noto Sans TC', sans-serif;
+  font-size:24px;
+}
+p span {
+  color: orange;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+body
+{
+  background: linear-gradient(5deg, rgba(220,47,2,0.5) 0%, rgba(255,186,8,0.3) 100%);
+}
+
+.all
+{
+  padding-top:100px;
+}
+
+.container
+{
+  padding-top:20px;
+  font-family: '微軟正黑體', sans-serif;
+}
+
+.text
+{
+  font-family: 'Noto Sans TC', sans-serif;
+  padding-top:35px;
+  position: relative;
+  text-align:center;
+  height:400px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.a1
+{  background:url("https://shhenn2014.github.io/img/img1.jpg") no-repeat center center;
+  background-size: cover;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.a2
+{  background:url("https://shhenn2014.github.io/img/img1.jpg") no-repeat center center;
+  background-size: cover;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.a3
+{  background:url("https://shhenn2014.github.io/img/img2.jpg") no-repeat center center;
+  background-size: cover;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.a4
+{  background:url("https://shhenn2014.github.io/img/img1.jpg") no-repeat center center;
+  background-size: cover;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+
+/* 已完成*/
+.nav-link
+{
+  font-family: '標楷體', sans-serif;
+}
+/* 40px */
+.toTop-arrow {
+	width: 2.5rem;
+	height: 2.5rem;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-radius: 33%;
+	opacity: 0.6;
+	background: #000;
+	cursor: pointer;
+	position:fixed;
+	right: 1rem;
+	bottom: 1rem;
+	display: none;
+}
+.toTop-arrow::before, .toTop-arrow::after {
+	width: 18px;
+	height: 5px;
+	border-radius: 3px;
+	background: #f90;
+	position: absolute;
+	content: "";
+}
+.toTop-arrow::before {
+	transform: rotate(-45deg) translate(0, -50%);
+	left: 0.5rem;
+}
+.toTop-arrow::after {
+	transform: rotate(45deg) translate(0, -50%);
+	right: 0.5rem;
+}
+.toTop-arrow:focus {outline: none;}
+ 
+ 
+/* 48px */
+.toTop-arrow {
+	width: 3rem;
+	height: 3rem;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-radius: 33%;
+	opacity: 0.6;
+	background: #000;
+	cursor: pointer;
+	position:fixed;
+	right: 1rem;
+	bottom: 1rem;
+	display: none;
+}
+.toTop-arrow::before, .toTop-arrow::after {
+	width: 25px;
+	height: 6px;
+	border-radius: 3px;
+	background: #f90;
+	position: absolute;
+	content: "";
+}
+.toTop-arrow::before {
+	transform: rotate(-45deg) translate(0, -50%);
+	left: 0.42rem;
+}
+.toTop-arrow::after {
+	transform: rotate(45deg) translate(0, -50%);
+	right: 0.42rem;
+}
+.toTop-arrow:focus {outline: none;}
+
+.icon
+{
+  position:fixed;
+  width: 75px;
+  height: 75px;
+  left:1%;
+  top:2%;
+  border-radius:10px;
+  box-shadow:4px 4px 11px rgba(0,0,0,0.6);
+  
+  background: linear-gradient(5deg, rgba(220,47,2,0.35) 0%, rgba(255,186,8,0.25) 100%);
+}
+.dovebody
+{
+  width:40px;
+  height:45px;
+  position:absolute;
+  left:43%;
+  bottom:-23px;
+  transform:translate(-50%,-50%);
+  background-color:#7546ab;
+}
+.circle
+{
+  width:40px;
+  height:45px;
+  position:absolute;
+  left:43%;
+  bottom:2px;
+  transform:translate(-50%,-50%);
+  border-radius:100% 100% 0% 0%; 
+  background-color:#7546ab;
+}
+.eye
+{
+  width:28px;
+  height:28px;
+  position:absolute;
+  left:45%;
+  top:40%;
+  transform:translate(-50%,-50%);
+  border-radius:50%; 
+  background-color:white;
+}
+.h1
+{
+  height:16px;
+  width:16px;
+  position:absolute;
+  top:0px;
+  left:0px;
+  border-radius:50%;
+  background:red;
+}
+.h2
+{
+  height:16px;
+  width:16px;
+  position:absolute;
+  top:0px;
+  left:14px;
+  border-radius:50%;
+  background:red;
+}
+.h3
+{
+  height:15px;
+  width:15px;
+  position:absolute;
+  top:7.4px;
+  left:7.45px;
+  transform:rotate(45deg);
+  background:red;
+}
+.eye2
+{
+  position:absolute;
+  left:30%;
+  top:20%;
+  transform:translate(-50%,-50%);
+  border-radius:50%; 
+}
+.mouth
+{
+position:absolute;
+top:20px;
+left:50px;
+border-style: solid;
+border-width: 13px 0 13px 20px;
+border-color: transparent transparent transparent orange;
+}
+.iconword
+{
+  font-family: '標楷體', sans-serif;
+  position:relative;
+  font-weight:700;
+  top:-85%;
+  left:120%;
+}
+
+/* The Modal (background) */
+.modal {
+  font-family: '標楷體', sans-serif;
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* The Modal2 (background) */
+.modal2 {
+  font-family: '標楷體', sans-serif;
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content2 {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close2 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn
+{
+  width:75px;
+  height:75px;
+  top:3%;
+  left:1%;
+}
+
+.s
+{
+  padding-top:100px;
+}
+.namecard {
+  font-family:'標楷體';
+  width: 70%;
+  height:360px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  background-color: #fbf5e5;
+  color: rgba(0, 0, 0, 0.8);
+  
+  border: solid 1px rgba(0, 0, 0, 0.15);
+  border-radius: 7px;
+  box-shadow: 0px 17px 15px 1px rgba(0, 0, 0, 0.35);
+}
+.namecard h2 {
+  font-size: 30px;
+  font-weight:600;
+}
+.namecard h2 span {
+  font-size: 10px;
+  font-weight: 400;
+}
+.namecard h5 {
+  font-size: 16px;
+  color: #07a9e4;
+  letter-spacing: 6px;
+}
+.namecard p {
+  font-size: 13px;
+  letter-spacing: 5px;
+  line-height: 22px;
+}
+
+.njj
+{
+  border-radius:10%;
+  position:relative;
+  top:8px;
+  left:2%;
+  width:95%;
+  height:95%;
+}
+.left
+{
+  width:25%;
+}
+.right
+{
+  padding-top:15px;
+}
+.first
+{
+  display: flex;
+}
+
+
+/* 特殊按鈕區 */
+.btn-5 {
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+  
+  width: 100px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  background: rgb(255,27,0);
+background: linear-gradient(0deg, rgba(255,27,0,1) 0%, rgba(251,75,2,1) 100%);
+}
+.btn-5:hover {
+  color: #f0094a;
+  background: transparent;
+   box-shadow:none;
+}
+.btn-5:before,
+.btn-5:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #f0094a;
+  box-shadow:
+   -1px -1px 5px 0px #fff,
+   7px 7px 20px 0px #0003,
+   4px 4px 5px 0px #0002;
+  transition:400ms ease all;
+}
+.btn-5:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.btn-5:hover:before,
+.btn-5:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+.smallword
+{
+  font-family:'標楷體',sans-serif;
+  font-weight:600;
+  text-align:center;
+}
